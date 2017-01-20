@@ -1,8 +1,5 @@
-## Babel Plugin Starter
-
-[![Circle CI](https://circleci.com/gh/jonsharratt/babel-plugin-starter/tree/master.svg?style=svg)](https://circleci.com/gh/jonsharratt/babel-plugin-starter/tree/master)
-
-Starter template to create a Babel plugin, uses Mocha and Chai for testing.  Includes ESLint so you can configure your own coding style.
+## Babel Style AutoPrefix
+This plugin will take any tagged template strings starting with 'prefix' and automatically run it's code through a css autoprefixer.
 
 ### Run Tests
 `npm t`
