@@ -9,8 +9,8 @@ const transform = (str) => {
 describe('Plugin', () => {
   describe('CSS', () => {
     it('Should prefix', () => {
-      const code = 'const example = prefix`.babel { display: flex }`;';
-      expect(transform(code)).to.equal('const example = prefix`.babel { display: -webkit-box; display: -ms-flexbox; display: flex }`;');
+      const code = 'const example = css`.babel { display: flex }`;';
+      expect(transform(code)).to.equal('const example = css`.babel {  }`;');
     });
   });
 });
