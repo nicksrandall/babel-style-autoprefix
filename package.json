@@ -1,6 +1,6 @@
 {
   "name": "babel-style-autoprefix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Babel CSS autoprifixer for tagged template strings.",
   "main": "lib",
   "scripts": {
